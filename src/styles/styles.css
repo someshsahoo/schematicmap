@@ -1,7 +1,7 @@
 @import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 h1 {
     color: rgba(167, 231, 18, 0.89);
-    stroke: aqua;
+    stroke: rgb(97, 247, 247);
   }
 
 /* Import all styles */
