@@ -1,6 +1,8 @@
 {
   "name": "codeschool-webdev",
-  "source": ["src/index.html"],
+  "source": [
+    "src/index.ejs"
+  ],
   "targets": {
     "default": {
       "distDir": "./docs",
@@ -16,7 +18,8 @@
   "devDependencies": {
     "eslint": "^8.11.0",
     "eslint-config-google": "^0.14.0",
-    "parcel": "^2.3.2"
+    "parcel": "^2.3.2",
+    "parcel-transformer-ejs": "^0.2.0"
   },
   "dependencies": {
     "bootstrap": "^5.1.3"
